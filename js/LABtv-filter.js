@@ -1,11 +1,11 @@
 // CODICE DI FILTRAGGIO
 
 let arrApi = [
-  "http://localhost:3000/Action",
-  "http://localhost:3000/Documentari",
-  "http://localhost:3000/Disney",
-  "http://localhost:3000/Classici",
-  "http://localhost:3000/Comici",
+  "https://spatarotv.ftdomotics.it/Action",
+"https://spatarotv.ftdomotics.it/Documentari",
+"https://spatarotv.ftdomotics.it/Disney",
+"https://spatarotv.ftdomotics.it/Classici",
+"https://spatarotv.ftdomotics.it/Comici"
 ];
 
 const filterS = document.getElementById("filterFilm");
