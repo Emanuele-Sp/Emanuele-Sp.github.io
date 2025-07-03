@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabForWebTV</title>
+    <link rel="stylesheet" href="css/LABtv.css">
+    <script src="js/LABtv.js" defer></script>
+    <script src="js/LABtv-moduli.js" defer></script>
+    <script src="js/LABtv-filter.js" defer></script>
+     <script src="js/LABtv-colorHeader-mainVideo.js" defer></script>
+</head>
+
+<!-- START DELLA PAGINA CON TUTTE LE FUNZIONI DEL PROFILO -->
+<body>
+
+<div class="start-container">
+    <!-- Start iniziale con i 3 profili predefiniti -->
+    <div class="start">
+        <h1>Chi vuole guardare LabForWebTV</h1>
+        <section>
+            <div><img src="images/profile/sonic.png" class="profile-img">
+                <p>Sonic</p>
+                <span class="span">Elimina</span>
+            </div>
+            <div><img src="images/profile/miles.png" class="profile-img">
+                <p>Miles</p>
+                <span class="span">Elimina</span>
+            </div>
+            <div><img src="images/profile/knucles.png" class="profile-img">
+                <p>Knucles</p>
+                <span class="span">Elimina</span>
+            </div>
+            <div id="add-profile"><img src="images/add.png" class="add-profile">              
+            <p >Aggiungi profilo</p>           
+            </div>                    
+        </section> 
+        <button>Elimina Profilo</button>  
+    </div>
+
+    <!-- Aggiunta di un profili -->
+    <div class="insert-data">
+        <h1>SCRIVI IL TUO NOME E SCEGLI L'AVATAR</h1>
+        <section id="section">
+            <input type="text" placeholder="Inserisci il tuo nome">
+            <button class="aggiungi">Aggiungi</button>
+            <button class="annulla">Annulla</button>
+        </section>
+
+
+        <section class="avatar"><!-- Roscrittura dello start --></section>
+    </div>  
+</div>
+
+<!-- PARTE DELL'HEADER -->
+<div class="container">
+    <header>
+        <section>
+            <div id="title">  
+                <div class="logo">
+                    <img src="images/1.png" alt="Tv LabForWeb">
+                </div>                       
+                <h1>LabForWeb TV</h1>
+            </div>
+
+            <ul class="menu">
+                <li id="home">Home</li>
+                <li>Serie TV</li>
+                <li>Film</li>
+                <li>Sport</li>                   
+            </ul>
+            
+            <ul class="menu contact">
+                <li id='contact'>Contattaci</li>
+                <li class="account">My Account
+                    <div class="menu-scroll">
+                        <span class="menu-login">Login</span>
+                        <span class="menu-reg">Registrati</span>
+                    </div>
+                </li>
+                <li id="lent">
+                    <img src="images/magnifying-glass.png" class="lent">
+                </li>   
+                <li id="inizio"></li>                           
+            </ul>
+        </section>               
+    </header>
+
+<!-- PARTE DEL MAIN  --> 
+    <main>      
+        <div id="video" class="video-cover">
+            <div class="video-info">
+                <div class="logo">
+                    <img src="images/4.png" alt="Tv LabForWeb">
+                </div>    
+
+                <h2>IL ROBOT SELVAGGIO</h2>
+
+                <div class="watch">
+                    <div class="d-play"><img src="images/play.png"></div>
+                    <p>Guarda ora</p>
+                </div>                  
+            </div>
+
+            <video 
+                src="images/Il Robot Selvaggio ｜ Trailer Ufficiale (Universal Studios) - HD.mp4" 
+                poster="images/il-robot-selvaggio-jpeg.webp"
+                muted   
+                class="gradient">                
+            </video>
+            <img src="images/no-sound.png" class="sound2">
+        </div>
+    </main>
+
+    <footer>
+        <section class="collegamenti">
+             <div class="logo"><img src="images/linkedin.png" alt="Linkedin Logo"></div>
+            <div class="logo"><img src="images/instagram.png" alt="Instagram Logo"></div>
+            <div class="logo"><img src="images/facebook.png" alt="Facebook Logo"></div>
+        </section>
+       
+        <ul>
+            <li>Audiodescrizione</li>
+            <li>Centro assistenza</li>
+            <li>Carte regalo</li>
+            <li>Media Center</li>
+            <li>Rapporti con gli Investitori</li>
+            <li>Opportunità di lavoro</li>
+            <li>Condizioni di utilizzo</li>
+            <li>Privacy</li>
+            <li>Note Legali</li>
+            <li>Preferenze per i cookie</li>
+            <li>Informazioni sull'azienda</li>
+            
+            <li>Preferenze per la pubblicità</li>
+        </ul>            
+    </footer>   
+</div>
+
+<!-- FILTRAGGIO DEI FILM -->
+<div id="filter-container">
+    <div class="div-filter" class="toGuess">                          
+            <select name="select" id="selectFilter" onchange="">
+                <option value="titolo">Titolo</option>
+                <option value="genere">Genere</option>
+            </select>
+            <input type="text" id="filter" placeholder="Scrivi un titolo">
+            <div class="btn">
+                <button class="search">CERCA</button>
+                <button class="svuota">Svuota campo</button>
+            </div>
+            <div id="tastierino"></div>
+            
+        </div>
+    <ul id="filterFilm" class="film"></ul>
+    <footer>
+         <section class="collegamenti">
+             <div class="logo"><img src="images/linkedin.png" alt="Linkedin Logo"></div>
+            <div class="logo"><img src="images/instagram.png" alt="Instagram Logo"></div>
+            <div class="logo"><img src="images/facebook.png" alt="Facebook Logo"></div>
+        </section>
+        <ul class="ul-filter">
+            <li>Audiodescrizione</li>
+            <li>Centro assistenza</li>
+            <li>Carte regalo</li>
+            <li>Media Center</li>
+            <li>Rapporti con gli Investitori</li>
+            <li>Opportunità di lavoro</li>
+            <li>Condizioni di utilizzo</li>
+            <li>Privacy</li>
+            <li>Note Legali</li>
+            <li>Preferenze per i cookie</li>
+            <li>Informazioni sull'azienda</li>
+            
+            <li>Preferenze per la pubblicità</li>
+        </ul>            
+    </footer>
+
+</div>
+
+<!-- MODULO CONTATTI -->
+<div id="modulo" class="module">
+    <h2>SCRIVI LA TUA RICHIESTA</h2>
+
+    <form action="" method="post" id="module" action="inserimento.php">
+        <img src="images/close.png" alt="" class="close">
+        <ul>
+            <li>
+                <input type="text" name="nome" id="nome" placeholder="Nome" autocomplete="off">
+                <span></span>
+            </li>
+            <li>
+                <input type="text" name="email" id="email" placeholder="Email" autocomplete="off">     
+                <span></span>           
+            </li>
+            <li>
+                <input type="text" name="tel" id="tel" placeholder="Telefono" autocomplete="off">     
+                <span></span>           
+            </li>   
+            <li>
+                <textarea type='text'name="textarea" id="textarea" autocomplete="off" placeholder="Scrivi un testo tra 10 e 300 caratteri"></textarea>
+                <span></span>
+            </li>             
+            <li>
+                <input type="checkbox" name="privacy" id="privacy">
+                <label for="privacy">Accetto le condizioni di utilizzo</label>
+                <span></span>
+            </li>
+            
+            <button type="submit">INVIA I DATI</button>
+        </ul>
+    </form>
+</div>
+
+<!-- MODULO LOGIN  -->
+<div class="module-container">
+    <div id="login-request" class="module">
+        <form action="" method="post" id="form-login-request">
+            <img src="images/close.png" alt="" class="close close-login">
+            <div><img src="images/1.png" alt="">
+            <h2>Per continuare inserisci la tua email e password</h2></div>
+            <p>Accedi a LabForWebTV con il tuo account. Se non hai un account, ti invitiamo a crearne uno.</p>
+            <ul>
+                <li>
+                    <input type="text" name="email-login" id="email-login" placeholder="Email"  autocomplete="off">     
+                    <span></span>           
+                </li>
+                <li>
+                    <input type="text" name="password-login" id="password-login" placeholder="Password" autocomplete="off">     
+                    <span></span>           
+                </li>
+                <li>
+                    <input type="checkbox" name="privacy" id="privacy-login">
+                    <label for="privacyLogin">Accetto le condizioni di utilizzo</label>
+                    <span></span>
+                </li>
+                <button>CONTINUA</button>
+            </ul>          
+            <p id="crea-account">Crea il tuo account</p>
+
+            <h3>LabForWebTV fa parte delle aziende del Gruppo Supereroi del Web</h3>
+            <h4>LabForWebTV ti consente di accedere facilmente alle esperienze e ai servizi offerti da tutte le aziende del Gruppo Web developer SuperHero Company e altro ancora.</h4>
+        </form>
+    </div>
+</div>
+
+<!-- MODULO REGISTRAZIONE -->
+<div class="module-container-register">
+    <div id="login-request" class="module">
+        <form action="" method="post" id="form-register-request">
+            <img src="images/close.png" alt="" class="close">
+            <div><img src="images/1.png" alt="">
+            <h2>CREAZIONE DELL'ACCOUNT</h2></div>
+            <p>Registrati e poi accedi all'ampia selezione di canali di LabForWebTV con il tuo account.</p>
+            <ul>
+                 <li>
+                    <input type="text" name="nome-register" id="nome-register" placeholder="Nome" autocomplete="off">
+                    <span></span>
+                </li>
+                <li>
+                    <input type="text" name="cognome-register" id="cognome-register" placeholder="Cognome" autocomplete="off">
+                    <span></span>
+                </li>
+                <li>
+                    <input type="text" name="email-register" id="email-register" placeholder="Email"  autocomplete="off">     
+                    <span></span>           
+                </li>
+                 <li>
+                    <input type="text" name="phone-register" id="phone-register" placeholder="Telefono" autocomplete="off">     
+                    <span></span>           
+                </li>   
+                <li>
+                    <input type="text" name="password-register" id="password-register" placeholder="Password" autocomplete="off">     
+                    <span></span>           
+                </li>
+                <li>
+                    <input type="text" name="password-register-double" id="password-register-double" placeholder="Ripeti password" autocomplete="off">     
+                    <span></span>           
+                </li>
+
+                <li>
+                    <input type="checkbox" name="privacy" id="privacy-register">
+                    <label for="privacy-register">Accetto le condizioni di utilizzo</label>
+                <span></span>
+                </li>
+                <button>Crea Account</button>
+            </ul>      
+
+            <h3>LabForWebTV fa parte delle aziende del Gruppo Supereroi del Web</h3>
+            <h4>LabForWebTV ti consente di accedere facilmente alle esperienze e ai servizi offerti da tutte le aziende del Gruppo Web developer SuperHero Company e altro ancora.</h4>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

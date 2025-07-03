@@ -1,0 +1,2 @@
+* aprire il terminale di visual studio code
+* digitare: json-server labtv.json

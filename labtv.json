@@ -1,0 +1,397 @@
+{
+"Action": [
+  {
+    "id": "action",
+    "titolo": "Avatar: La via dell'acqua",
+    "copertina": "images/action/avata2.webp",
+    "genere": "Fantascienza • Azione • Avventura • Fantastico",
+    "eta": 18,
+    "timing": "2h 42m",
+    "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+    "titolo": "Stranger Things 4",
+    "copertina": "images/action/stranger-things-4-169.webp",
+    "genere": "Fantascienza • Azione • Avventura",
+    "eta": 18,
+    "timing": "1h 50m",
+    "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+    
+  },
+  {
+    "titolo": "Shark: il primo squalo",
+    "copertina": "images/action/shark-il-primo-squalo-169.webp",
+    "genere": "Fantascienza • Azione • Avventura",
+    "eta": 18,
+    "timing": "1h 50m",
+    "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+    "titolo": "Aquaman: il regno perduto",
+    "copertina": "images/action/aquaman-regno-perduto.webp",
+    "genere": "Fantascienza • Azione • Avventura",
+    "eta": 18,
+    "timing": "1h 50m",
+    "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+    "titolo": "Mission Impossible",
+    "copertina": "images/action/mission-impossible-deadreckoning.webp",
+    "genere": "Spionaggio • Azione • Avventura",
+    "eta": 17,
+    "timing": "1h 50m",
+    "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+    "titolo": "Superman",
+    "copertina": "images/action/man-of-steel.webp",
+    "genere": "Fantascienza • Azione • Supereroi",
+    "eta": 18,
+    "timing": "2h 23m",
+    "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+    "titolo": "Red Notice",
+    "copertina": "images/action/red-notice.webp",
+    "genere": "Azione • Crimine • Commedia",
+    "eta": 14,
+    "timing": "1h 58m",
+    "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+    "titolo": "The Batman",
+    "copertina": "images/action/the-batman-begin.webp",
+    "genere": "Azione • Crimine • Mistero",
+    "eta": 14,
+    "timing": "2h 56m",
+    "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  }
+]
+,
+  "Documentari": [
+    {
+  "id": "documentari",
+  "titolo": "Chasing Coral",
+  "copertina": "images/documentary/chasing-coral.webp",
+  "genere": "Documentario • Ambiente • Natura",
+  "eta": 10,
+  "timing": "1h 33m",
+  "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+},
+    {
+      "id": "documentari",
+      "titolo": "Oceani del mondo",
+      "copertina": "images/documentary/oceani-del-mondo.webp",
+      "genere": "Documentario • Natura • Educativo",
+      "eta": 6,
+      "timing": "1h 30m",
+       "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+      "titolo": "Human - il mondo dentro di noi",
+      "copertina": "images/documentary/human-il-mondo-dentro-di-noi.webp",
+      "genere": "Documentario • Scienza • Corpo umano",
+      "eta": 10,
+      "timing": "1h 45m",
+       "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+      "titolo": "La mente in poche parole",
+      "copertina": "images/documentary/la-mente-in-poche-parole.webp",
+      "genere": "Documentario • Psicologia • Neuroscienze",
+      "eta": 12,
+      "timing": "1h 20m",
+      "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+      "titolo": "l'universo svelato",
+      "copertina": "images/documentary/luniverso-svelato.webp",
+      "genere": "Documentario • Astronomia • Spazio",
+      "eta": 10,
+      "timing": "1h 50m",
+      "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+      "titolo": "David Attenborough - La vita a colori",
+      "copertina": "images/documentary/david-attemborough-la-vita-a-colori.webp",
+      "genere": "Documentario • Natura • Biologia",
+      "eta": 6,
+      "timing": "1h 40m",
+     "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+      "titolo": "Il mio amico in fondo al mare",
+      "copertina": "images/documentary/il-mio-amico-in-fondo-al-mare.webp",
+      "genere": "Documentario • Natura • Emozionante",
+      "eta": 6,
+      "timing": "1h 25m",
+      "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+  "id": "documentari",
+  "titolo": "Night on Earth",
+  "copertina": "images/documentary/night-on-earth.webp",
+  "genere": "Documentario • Natura • Notturno",
+  "eta": 6,
+  "timing": "50m",
+  "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+},
+ {
+    "id": "documentari",
+    "titolo": "The Social Dilemma",
+    "copertina": "images/documentary/the-social-dilemma.webp",
+    "genere": "Documentario • Tecnologia • Psicologia",
+    "eta": 13,
+    "timing": "1h 34m",
+   "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  }
+  ],
+  "Disney": [
+    {
+      "titolo": "Il robot selvaggio",
+      "copertina": "images/disney/il-robot-selvaggio-169.webp",
+      "genere": "Fantascienza • Azione • Avventura",
+      "eta": 3,
+      "timing": "1h 50m",
+      "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+      "titolo": "Soul",
+      "copertina": "images/disney/Soul.webp",
+      "genere": "Animazione • Commedia • Famiglia",
+      "eta": 3,
+      "timing": "1h 40m",
+     "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+      "titolo": "Frozen II",
+      "copertina": "images/disney/FROZEN-II-IL-SEGRETO-DI-ARENDELLE-1.webp",
+      "genere": "Animazione • Avventura • Famiglia",
+      "eta": 3,
+      "timing": "1h 43m",
+     "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+      "titolo": "Coco",
+      "copertina": "images/disney/coco.webp",
+      "genere": "Animazione • Famiglia • Musica",
+      "eta": 3,
+      "timing": "1h 45m",
+      "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+      "titolo": "The lion king",
+      "copertina": "images/disney/lion-king.webp",
+      "genere": "Animazione • Avventura • Famiglia",
+      "eta": 3,
+      "timing": "1h 28m",
+      "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+      "titolo": "Aladin",
+      "copertina": "images/disney/aladin.jpg",
+      "genere": "Animazione • Avventura • Famiglia",
+      "eta": 3,
+      "timing": "1h 30m",
+     "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+      "titolo": "Encanto",
+      "copertina": "images/disney/encanto.webp",
+      "genere": "Animazione • Famiglia • Fantasy",
+      "eta": 5,
+      "timing": "1h 39m",
+      "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+    {
+      "titolo": "Raya e l'ultimo drago",
+      "copertina": "images/disney/raya-ultimo-drago.webp",
+      "genere": "Animazione • Azione • Avventura",
+      "eta": 5,
+      "timing": "1h 47m",
+      "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+    }
+  ],
+  "Classici": [
+    {
+  "id": "classici",
+  "titolo": "Matrix",
+  "copertina": "images/classic/matrix.webp",
+  "genere": "Fantascienza • Azione • Cyberpunk",
+  "eta": 16,
+  "timing": "2h 16m",
+  "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+},
+  {
+    "titolo": "Ritorno al futuro",
+    "copertina": "images/classic/ritorno-futuro-169.webp",
+    "genere": "Fantascienza • Avventura • Commedia",
+    "eta": 13,
+    "timing": "1h 56m",
+    "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+    "titolo": "Forrest Gump",
+    "copertina": "images/classic/forrest-gump.webp",
+    "genere": "Drammatico • Romantico • Commedia",
+    "eta": 13,
+    "timing": "2h 22m",
+   "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+    "titolo": "La La Land",
+    "copertina": "images/classic/la-la-land.webp",
+    "genere": "Musicale • Romantico • Drammatico",
+    "eta": 10,
+    "timing": "2h 8m",
+    "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+    "titolo": "Taxi Driver",
+    "copertina": "images/classic/taxi-driver.webp",
+    "genere": "Drammatico • Thriller • Psicologico",
+    "eta": 16,
+    "timing": "1h 53m",
+    "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+  "titolo": "Il Gladiatore",
+  "copertina": "images/classic/il-gladiatore.webp",
+  "genere": "Drammatico • Azione • Storico",
+  "eta": 16,
+  "timing": "2h 35m",
+  "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+},
+{
+  "id": "classici",
+  "titolo": "Scarface",
+  "copertina": "images/classic/scarface.webp",
+  "genere": "Crimine • Drammatico • Gangster",
+  "eta": 18,
+  "timing": "2h 50m",
+ "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+},
+  {
+    "id": "classici",
+    "titolo": "The Truman Show",
+    "copertina": "images/classic/the-truman-show.webp",
+    "genere": "Drammatico • Fantascienza • Satira",
+    "eta": 13,
+    "timing": "1h 43m",
+    "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+  }
+  
+],
+  "Comici": [
+     {
+  "titolo": "Ace Ventura - L'acchiappanimali",
+  "copertina": "images/comic/ace-ventura.webp",
+  "genere": "Commedia • Avventura",
+  "eta": 14,
+  "timing": "1h 26m",
+ "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+},
+    {
+      "titolo": "Quo vado",
+      "copertina": "images/comic/quo-vado-169.webp",
+      "genere": "Commedia • Satira • Italiano",
+      "eta": 15,
+      "timing": "1h 26m",
+      "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+    },
+{
+  "titolo": "Una notte da leoni",
+  "copertina": "images/comic/una-notte-da-leoni.webp",
+  "genere": "Commedia",
+  "eta": 14,
+  "timing": "1h 40m",
+  "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+},
+{
+  "titolo": "The Mask",
+  "copertina": "images/comic/the-mask.webp",
+  "genere": "Commedia • Fantastico • Azione",
+  "eta": 14,
+  "timing": "1h 41m",
+ "trailer": "video/StrangerThings360p.mp4",
+    "film": "video/videoplayback.mp4"
+},
+{
+    "id": "comici",
+    "titolo": "Murder Mystery",
+    "copertina": "images/comic/murder-mystery.webp",
+    "genere": "Commedia • Crimine • Azione",
+    "eta": 13,
+    "timing": "1h 37m",
+    "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+    "id": "comici",
+    "titolo": "Yes Day",
+    "copertina": "images/comic/yes-day.webp",
+    "genere": "Commedia • Famiglia • Bambini",
+    "eta": 6,
+    "timing": "1h 26m",
+   "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+    "id": "comici",
+    "titolo": "The Wrong Missy",
+    "copertina": "images/comic/the-wrong-missy.webp",
+    "genere": "Commedia • Romantico • Grottesco",
+    "eta": 16,
+    "timing": "1h 30m",
+    "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  },
+  {
+    "id": "comici",
+    "titolo": "Don't Look Up",
+    "copertina": "images/comic/dont-look-up.webp",
+    "genere": "Commedia • Satira • Fantascienza",
+    "eta": 13,
+    "timing": "2h 18m",
+    "trailer": "video/avatar-la-via-dell'acqua.mp4",
+    "film": "video/videoplayback.mp4"
+  }
+
+  ]
+}
