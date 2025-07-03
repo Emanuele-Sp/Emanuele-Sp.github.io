@@ -213,7 +213,7 @@ let ulFilms = [];
 /* let sound1 */
 
 function createCard(movies, title) {
-  return fetch(`http://localhost:3000/${movies}`)
+  return fetch(`https://spatarotv.ftdomotics.it/${movies}`)
     .then((res) => res.json())
     .then((responseObj) => {
       const movies = responseObj;
