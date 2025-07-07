@@ -20,10 +20,8 @@ body {
   position: absolute;
   border: solid 2px white;
   border-radius: 10px;
- /*  left: 25%; */
   background-color: rgba(255, 255, 255, 0.9);
   padding: 1%;
- /*  top: 25%; */
   z-index: 1000;
   width: 100vw;
   height: 100vh;
@@ -54,7 +52,8 @@ body {
 #closeM img{
   border: none;
 }
-p{
+
+#message p{
   padding: 2% 5%;
   width: 100%;
   font-size: 2.5em;
