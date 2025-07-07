@@ -45,12 +45,15 @@ body {
 }
 
 #closeM{
-  width: 5%;
+  width: 3.5%;
   border: none;
   align-self: center;
   margin: 2% 5% 0 0;
 }
 
+#closeM img{
+  border: none;
+}
 p{
   padding: 2% 5%;
   width: 100%;
