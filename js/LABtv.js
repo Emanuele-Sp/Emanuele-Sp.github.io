@@ -1,3 +1,25 @@
+// MESSAGGIO INIZIALE
+
+const startMessage = document.getElementById('message')
+const closeM = document.getElementById('closeM')
+const startTime = document.querySelector('#count span')
+let timerMessage = 10
+
+startTime.innerHTML = timerMessage
+
+function closeMessage(){
+  if(timerMessage != 1){
+    timerMessage = timerMessage - 1
+    startTime.innerHTML = timerMessage
+    console.log(timerMessage)
+  }
+  else{
+    clearInterval(interval)
+    startMessage.style.display = 'none'
+  }
+}
+const interval = setInterval(closeMessage, 1000)
+
 // FUNZIONE DI START
 const start = document.querySelector(".start");
 const inizio = document.querySelector("#inizio");
