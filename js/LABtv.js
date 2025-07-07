@@ -19,8 +19,12 @@ function closeMessage(){
   }
   
 }
-
 const interval = setInterval(closeMessage, 1000)
+
+closeM.addEventListener('click', ()=>{
+  clearInterval(interval)
+    startMessage.style.display = 'none'
+})
 
 // FUNZIONE DI START
 const start = document.querySelector(".start");
