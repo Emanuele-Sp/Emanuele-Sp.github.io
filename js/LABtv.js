@@ -17,7 +17,9 @@ function closeMessage(){
     clearInterval(interval)
     startMessage.style.display = 'none'
   }
+  
 }
+
 const interval = setInterval(closeMessage, 1000)
 
 // FUNZIONE DI START
